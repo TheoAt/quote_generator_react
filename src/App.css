@@ -34,5 +34,5 @@
 .main-title {
   font-family: var(--main-font);
   color: var(--outremer);
-  margin-bottom: var(--spacing-medium);
+  margin-bottom: var(--spacing);
 }
