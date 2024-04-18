@@ -1,0 +1,44 @@
+.quote-container {
+    text-align: center;
+}
+
+.quote-content {
+    background-color: var(--outremer);
+    border-radius: var(--spacing-medium);
+    padding: var(--spacing-large);
+    max-width: 500px;
+    margin: var(--spacing-large) 0;
+}
+
+.quote {
+    font-size: var(--spacing-medium);
+    color: var(--light-color);
+    margin-bottom: var(--spacing);
+    font-weight: 500;
+    font-family: var(--main-font);
+    font-style: italic;
+}
+
+.quote-author {
+    color: var(--light-color);
+    font-family: var(--secondary-font);
+}
+
+.quote-button {
+    padding: var(--spacing) var(--spacing-medium);
+    border-radius: var(--spacing);
+    outline: none;
+    cursor: pointer;
+    border: 2px solid var(--outremer);
+    background-color: var(--light-color);
+    color: var(--outremer);
+    font-family: var(--secondary-font);
+    font-weight: bold;
+    font-size: var(--spacing-medium);
+    transition: all .2s ease;
+}
+
+.quote-button:hover {
+    background-color: var(--outremer);
+    color: var(--light-color);
+}
